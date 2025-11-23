@@ -1,0 +1,155 @@
+{
+    "metadata": {
+      "datasets": [
+        "INDDEM",
+        "INDGEN",
+        "IMBALNGC",
+        "MELNGC"
+      ]
+    },
+    "data": [
+      {
+        "publishTime": "2025-11-21T17:47:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30278,
+        "indicatedDemand": -16057,
+        "indicatedMargin": 33843,
+        "indicatedImbalance": 391
+      },
+      {
+        "publishTime": "2025-11-21T18:17:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30494,
+        "indicatedDemand": -16560,
+        "indicatedMargin": 33912,
+        "indicatedImbalance": 653
+      },
+      {
+        "publishTime": "2025-11-21T18:48:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30744,
+        "indicatedDemand": -16552,
+        "indicatedMargin": 33871,
+        "indicatedImbalance": 927
+      },
+      {
+        "publishTime": "2025-11-21T19:17:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30885,
+        "indicatedDemand": -16541,
+        "indicatedMargin": 33619,
+        "indicatedImbalance": 1068
+      },
+      {
+        "publishTime": "2025-11-21T19:48:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30919,
+        "indicatedDemand": -16541,
+        "indicatedMargin": 33534,
+        "indicatedImbalance": 1102
+      },
+      {
+        "publishTime": "2025-11-21T20:17:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30890,
+        "indicatedDemand": -16549,
+        "indicatedMargin": 33501,
+        "indicatedImbalance": 1073
+      },
+      {
+        "publishTime": "2025-11-21T20:47:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30593,
+        "indicatedDemand": -16614,
+        "indicatedMargin": 32847,
+        "indicatedImbalance": 735
+      },
+      {
+        "publishTime": "2025-11-21T21:17:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30595,
+        "indicatedDemand": -16613,
+        "indicatedMargin": 32827,
+        "indicatedImbalance": 737
+      },
+      {
+        "publishTime": "2025-11-21T21:47:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30668,
+        "indicatedDemand": -16613,
+        "indicatedMargin": 33143,
+        "indicatedImbalance": 810
+      },
+      {
+        "publishTime": "2025-11-21T22:17:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30694,
+        "indicatedDemand": -16551,
+        "indicatedMargin": 33126,
+        "indicatedImbalance": 922
+      },
+      {
+        "publishTime": "2025-11-21T22:47:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30944,
+        "indicatedDemand": -16770,
+        "indicatedMargin": 33069,
+        "indicatedImbalance": 1172
+      },
+      {
+        "publishTime": "2025-11-21T23:17:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30939,
+        "indicatedDemand": -16956,
+        "indicatedMargin": 32456,
+        "indicatedImbalance": 896
+      },
+      {
+        "publishTime": "2025-11-21T23:47:00Z",
+        "startTime": "2025-11-22T00:00:00Z",
+        "settlementDate": "2025-11-22",
+        "settlementPeriod": 1,
+        "boundary": "N",
+        "indicatedGeneration": 30939,
+        "indicatedDemand": -16956,
+        "indicatedMargin": 32306,
+        "indicatedImbalance": 896
+      }
+    ]
+  }
