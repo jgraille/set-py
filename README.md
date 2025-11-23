@@ -76,6 +76,7 @@ Ways to improve this application could be to:
 - Use of pydantic to enforce the data structure just after the api call
 - Use of some boostrap to make the front looks prettier
 - For production grade, add more extra integration and performance tests.
+- Containerize the application for further extension with other services
 
 
 
