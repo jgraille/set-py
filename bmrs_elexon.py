@@ -138,7 +138,17 @@ class IndicatedImbalance(BmrsElexon):
                     )
         return df[['PublishTime','StartTime', 'IndicatedImbalance']]
 
+class WindSolarForecastActuals(BmrsElexon):
 
+    def __init__(self, settlement_date: str):
+        """
+        Create a new WindSolarForecastActuals instance with a settlement date.
+        Args:
+            settlement_date: str
+        """
+        self.settlement_date: str = settlement_date
+        self.url: str = f"https://data.elexon.co.uk/bmrs/api/v1/forecast/wind-solar/day-ahead/evolution?"
+        self.periods: dict[str, list[int]] = {'previous': [47,48], 'selected': list(range(1,47))}
 
 
 
