@@ -8,7 +8,7 @@ from bmrs_elexon import IndicatedImbalance
 # LLM generated, reviewed by human
 
 # Path to test data
-TEST_DATA_PATH = "data/response_48.csv"
+TEST_DATA_PATH = "data/indicatedimbalance.csv"
 
 
 class TestIndicatedImbalance:
@@ -33,16 +33,17 @@ class TestIndicatedImbalance:
         mock_response = Mock()
         mock_response.status_code = 200
         mock_response.content = csv_data
-        mock_response.raise_for_status = Mock()
+        mock_response.raise_for_status = Mock() # 'went ok'
         mock_get.return_value = mock_response
 
         forecast = IndicatedImbalance(settlement_date='2025-11-11')
         # Test raw data fetching for a single period
         df = forecast.get_raw_data('2025-11-11', 48)
 
-        assert not df.empty
-        assert len(df) == 71  # Based on response_48.csv
-        assert 'PublishTime' in df.columns
+        # Verify content matches expected data from CSV
+        expected_df = pd.read_csv(TEST_DATA_PATH)
+        pd.testing.assert_frame_equal(df, expected_df)
+        
         mock_get.assert_called_once()
 
     @patch('bmrs_elexon.requests.get')
