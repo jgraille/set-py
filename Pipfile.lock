@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "708e177f904eb19bc76a1b485c78c24cc14d967c31de2d8f46d10f86542f90c0"
+            "sha256": "7b4cd8995ae0f6597880025e7e59d1f821c9b1cdd036650ef7523f85e413997f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -168,15 +168,6 @@
             "index": "pypi",
             "markers": "python_version >= '3.8'",
             "version": "==3.3.0"
-        },
-        "dash-ag-grid": {
-            "hashes": [
-                "sha256:a690d18a83ebba96e68e63d928f3e30f97d38a8a6418ddd479db4ce825c0de91",
-                "sha256:c3137b66c73b2de82da379c2aa238f4fbe9b555913c3361e11d93096a0e61f50"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.6'",
-            "version": "==32.3.2"
         },
         "flask": {
             "hashes": [
